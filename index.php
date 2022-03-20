@@ -38,13 +38,11 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item dropdown-toggle" href="/categories.php" data-bs-toggle="dropdown" aria-expanded="false">Educational</a>
-                                
-                        </li>
-                        
+                          
+                            </li>
                             <li><a class="dropdown-item" href="/categories.php">Story</a></li>
                             <li><a class="dropdown-item" href="/categories.php">Novels</a></li>
                             <li><a class="dropdown-item" href="/categories.php">News</a></li>
-   
                             <li><a class="dropdown-item" href="/categories.php">Journal & reasearch papers</a></li>
                         </ul>
                     </li>
