@@ -36,23 +36,16 @@
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Categories
                         </a>
-
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/categories.php">Educational</a>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories </a>
-                                    <ul>
-                                    <li><a class="dropdown-item" href="/categories.php">action</a></li>
-                                    <li><a class="dropdown-item" href="/categories.php">action</a></li>
-                                    <li><a class="dropdown-item" href="/categories.php">action</a></li>
-                                    </ul>
-                                </li>
-                            </li>
-                            <li><a class="dropdown-item" href="/categories.php">action</a></li>
-                            <li><a class="dropdown-item" href="/categories.php">action</a></li>
-                            <li><a class="dropdown-item" href="/categories.php">action</a></li>
+                            <li><a class="dropdown-item dropdown-toggle" href="/categories.php" data-bs-toggle="dropdown" aria-expanded="false">Educational</a>
+                                
+                        </li>
+                        
+                            <li><a class="dropdown-item" href="/categories.php">Story</a></li>
+                            <li><a class="dropdown-item" href="/categories.php">Novels</a></li>
+                            <li><a class="dropdown-item" href="/categories.php">News</a></li>
    
-                            <li><a class="dropdown-item" href="/categories.php">Something else here</a></li>
+                            <li><a class="dropdown-item" href="/categories.php">Journal & reasearch papers</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -82,7 +75,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/1.jpg" class="d-block w-100" alt="...">
+            <img src="assets/1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h3>Welcome to Let's Read!</h3>
               <p>Read,Learn,Inspire</p>
@@ -92,7 +85,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/2.jpg" class="d-block w-100" alt="...">
+            <img src="assets/2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h3>Welcome to Let's Read!</h3>
                 <p>Read,Learn,Inspire</p>
@@ -102,7 +95,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/3.jpg" class="d-block w-100" alt="...">
+            <img src="assets/3.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h3>Welcome to Let's Read!</h3>
                 <p>Read,Learn,Inspire</p>
@@ -138,7 +131,7 @@
                         
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/ncert_phyII.jpg" alt="">
+                        <img class="bd-placeholder-img" width="200" height="250" src="assets/ncert_phyII.jpg" alt="">
 
                     </div>
                 </div>
@@ -156,7 +149,7 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/The Jungle Book.jpg" alt="">
+                        <img class="bd-placeholder-img" width="200" height="250" src="assets/The Jungle Book.jpg" alt="">
 
                     </div>
                 </div>
@@ -175,7 +168,7 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/python.jpg" alt="">
+                        <img class="bd-placeholder-img" width="200" height="250" src="assets/python.jpg" alt="">
 
                     </div>
                 </div>
@@ -192,7 +185,7 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/python.jpg" alt="">
+                        <img class="bd-placeholder-img" width="200" height="250" src="assets/python.jpg" alt="">
 
                     </div>
                 </div>
@@ -208,7 +201,7 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/python.jpg" alt="">
+                        <img class="bd-placeholder-img" width="200" height="250" src="assets/python.jpg" alt="">
 
                     </div>
                 </div>
@@ -224,7 +217,7 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/python.jpg" alt="">
+                        <img class="bd-placeholder-img" width="200" height="250" src="assets/python.jpg" alt="">
 
                     </div>
                 </div>
@@ -240,7 +233,7 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/python.jpg" alt="">
+                        <img class="bd-placeholder-img" width="200" height="250" src="assets/python.jpg" alt="">
 
                     </div>
                 </div>
@@ -256,7 +249,7 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/python.jpg" alt="">
+                        <img class="bd-placeholder-img" width="200" height="250" src="assets/python.jpg" alt="">
 
                     </div>
                 </div>
@@ -272,7 +265,7 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/python.jpg" alt="">
+                        <img class="bd-placeholder-img" width="200" height="250" src="assets/python.jpg" alt="">
 
                     </div>
                 </div>
@@ -288,7 +281,7 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/python.jpg" alt="">
+                        <img class="bd-placeholder-img" width="200" height="250" src="assets/python.jpg" alt="">
 
                     </div>
                 </div>
@@ -304,7 +297,7 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/python.jpg" alt="">
+                        <img class="bd-placeholder-img" width="200" height="250" src="assets/python.jpg" alt="">
 
                     </div>
                 </div>
@@ -321,7 +314,7 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/merchant_of_venice.jpg" alt="">
+                        <img class="bd-placeholder-img" width="200" height="250" src="assets/merchant_of_venice.jpg" alt="">
 
                     </div>
                 </div>
