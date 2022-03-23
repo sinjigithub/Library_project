@@ -10,8 +10,16 @@
     <title>Feedback Form</title>
 </head>
 <body>
-    <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+     <!-- Nav bar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bglavender">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Let's Read</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -47,28 +55,20 @@
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn animated-btn" type="submit">Search</button>
                 </form>
             </div>
         </div>
     </nav>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-
     <!-- Main content  -->
-    <div class="container mt-4 shadow-lg">
+    <div class="container mt-2 shadow-lg feedback-container">
         <div class="row">
             <div class="col-md-3"></div>
-                <h2 class="text-white">Feedback Form</h2>
-                <p class="text-white">We welcome your comments and suggestion!</p>
+                <h2 class="text-black">Feedback Form</h2>
+                <p class="text-black">We welcome your comments and suggestion!</p>
                 <hr>
                 <form>
-                    <div class="text-white">
+                    <div class="text-black">
                         <h5>What kind of comment would you like to send?</h5>
                         <div class="row">
                             <div class="col-md-4">
@@ -86,15 +86,15 @@
                         </div>
                     </div>
                     
-                    <div class="mb-3 text-white">
+                    <div class="mb-3 text-black">
                         <label for="formGroupExampleInput" class="form-label">Name</label>
                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your full name." required="">
                     </div>
-                    <div class="mb-3 text-white">
+                    <div class="mb-3 text-black">
                         <label for="formGroupExampleInput2" class="form-label">Email</label>
                         <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your e-mail address. " required="">
                     </div>
-                    <div class="form-group mb-2 text-white">
+                    <div class="form-group mb-2 text-black">
                         <label class="form-label">Describe Feedback:</label>
                     </div>
                     <div class="form-floating">
