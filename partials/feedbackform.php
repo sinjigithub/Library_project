@@ -36,7 +36,7 @@
                         <a class="nav-link" href="/about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Categories
                         </a>
@@ -49,8 +49,8 @@
                             <li><a class="dropdown-item" href="/categories.html">Something else here</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="feedbackform.php">Feedback</a>
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="feedbackform.php">Feedback</a>
                     </li>
                 </ul>
                 <form class="d-flex">
